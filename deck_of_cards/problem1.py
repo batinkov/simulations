@@ -62,7 +62,7 @@ if __name__  == '__main__':
                 if deck_cards_num[index+1] == desired_card2_num: # the position index+1 is guaranteed to be inside the deck
                     desired_card2_count += 1
     
-                break # the trigger card has been found so stop iterating and perform another experiment
+                break # the trigger card has been found so stop iterating and perform new iteration of the experiment
     
     print(f'iterations: {max_iterations}')
     print(f'"{num2card(desired_card1_num)}" hits: {desired_card1_count}')
