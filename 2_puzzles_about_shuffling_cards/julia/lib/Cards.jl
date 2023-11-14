@@ -32,7 +32,7 @@ module Cards
         rank = Rank(card % 13)
         suit = Suit(div(card, 13))
 
-        print("$(rank) of $(suit)")
+        print(io, "$(rank) of $(suit)")
     end
 
     "Returns a standard deck of 52 ordered Cards"
